@@ -1,0 +1,15 @@
+
+    <div class="container">
+        <h1 style="text-align: center; margin-top: 50px; margin-bottom: 85px;">LOGIN TO COLLEGE PORTAL</h1>
+    </div>
+    <div class="container">
+        <div class="alert alert-warning" *ngIf='errorMessage'>
+            ENTER VALID CREDENTIALS
+        </div>
+        <div class="container">
+            Username : <input type="text" name="username" [(ngModel)]="username" style="margin-top:20px; margin-bottom: 30px;"><br>
+            Password : <input type="password" name="password" [(ngModel)]="password" style="margin-bottom: 20px;"><br>
+            <button (click)="submit()" class="btn btn-success justify-content-center"
+                style="margin-left: 110px ;">Login</button>
+        </div>
+    </div>

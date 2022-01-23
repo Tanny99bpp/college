@@ -1,0 +1,18 @@
+.container{
+    text-align: center;
+    margin-top: 200px;
+}
+.buttons{
+    float: left;
+    width: 300px;
+    height: 25px;
+    margin-top: 125px;
+}
+.search{
+    float: right;
+    width:300px;
+    height:25px;
+    border-radius:25px;
+    border: none;
+    margin-top: 150px;
+}

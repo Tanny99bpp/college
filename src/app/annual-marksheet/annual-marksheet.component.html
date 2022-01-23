@@ -1,0 +1,43 @@
+<div class="container mx-5 my-4 py-5" style="text-align: center;">
+    <div class="container">
+        <h1 class="text-center" style="text-align: center;">Annual Marksheet 2021-2022</h1>
+    </div>
+    <div class="container mx-5 mt-5" >
+        <table class="table table-striped" style="text-align: center;">
+            <thead>
+                <tr>
+                    <th>Serial_Number</th>
+                    <th>Class</th>
+                    <th>Section</th>
+                    <th>Student Id</th>
+                    <th>Name</th>
+                    <th>Grade</th>
+                    <th>Percentage/CGPA</th>
+                    <th>Pass/Fail</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{marks.s_no}}</td>
+                    <td>{{marks.class}}</td>
+                    <td>{{marks.section}}</td>
+                    <td>{{marks.s_id}}</td>
+                    <td>{{marks.name}}</td>
+                    <td>{{marks.grade}}</td>
+                    <td>{{marks.cgpa}}</td>
+                    <td>{{marks.pf}}</td>
+                </tr>
+            </tbody>
+            <div class="container mt-5">
+                <tfoot>
+                    <tr>
+                        <td><b><i>Comments :</i></b></td>
+                    </tr>
+                    <tr>
+                        <td>{{marks.comments}}</td>
+                    </tr>
+                </tfoot>
+            </div>
+        </table>
+    </div>
+</div>
